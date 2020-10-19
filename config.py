@@ -10,7 +10,7 @@ db_pass = os.environ.get('aws_db_pass')
 db_endpoint = os.environ.get('aws_db_endpoint')
 
 
-SQLALCHEMY_DATABASE_URI = f'mysql+pymysql://{db_user}:{db_pass}@{db_endpoint}/flask'
+SQLALCHEMY_DATABASE_URI = f'mysql+pymysql://{db_user}:{db_pass}@{db_endpoint}:3306/flaskfinance'
 
 # Uncomment the line below if you want to work with a local DB
 #SQLALCHEMY_DATABASE_URI = 'sqlite:///test.db'
