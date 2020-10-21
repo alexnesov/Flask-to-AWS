@@ -5,3 +5,9 @@ The app is launched to the cloud & open to the web thanks to AWS Elastic Beansta
 
 ```pip install awsebcli```
 
+ 
+```eb create```
+
+When a file updated:
+```eb deploy```
+
